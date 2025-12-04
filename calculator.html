@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Modul3/Calculator/calculator.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="leftside">
+        <div class="display">
+          <div id="firstshow"></div>
+          <div id="firstnumber"></div>
+        </div>
+
+        <div class="calculator">
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(7)">7</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(8)">8</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(9)">9</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickOperator('/')">/</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(4)">4</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(5)">5</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(6)">6</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickOperator('*')">*</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(1)">1</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(2)">2</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(3)">3</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickOperator('-')">-</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="deleteAll()">CE</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickNumbers(0)">0</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickOperator('=')">=</button>
+          </div>
+          <div class="calc-buttons">
+            <button class="buttondesign" onclick="clickOperator('+')">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div id="historylist"></div>
+      </div>
+    </div>
+    <script src="/Modul3/Calculator/calculator.js"></script>
+  </body>
+</html>
